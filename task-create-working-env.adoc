@@ -1,0 +1,56 @@
+---
+sidebar: sidebar 
+permalink: task-create-working-env.html 
+keywords: google cloud netapp volumes, google cloud, netapp cloud volumes, create netapp cloud volumes, discover netapp cloud volumes service for gcnv, cloud volumes service subscription, discover cloud volumes service subscription, discover region, allowed clients, netapp console 
+summary: ボリュームを表示および管理するには、 NetAppコンソールに Netapp Volumes for Google Cloud システムを追加します。 
+---
+= Google Cloud NetApp Volumesシステムを追加する
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+サービス アカウントを設定したら、 NetAppコンソールでGoogle Cloud NetApp Volumesシステムを追加して、 Google Cloud NetApp Volumesインスタンスを表示できるようにします。
+
+このサブスクリプションのクラウド ボリュームがシステムに表示されます。
+
+
+NOTE: 複数の Google Cloud プロジェクトにサブスクリプションとボリュームがある場合は、プロジェクトごとにこのタスクを実行する必要があります。
+
+.開始する前に
+各プロジェクトのサブスクリプションを追加するときは、次の情報を用意しておく必要があります。
+
+* サービス アカウントの資格情報 (ダウンロードした JSON 秘密鍵)
+* プロジェクト名
+
+
+.手順
+. NetAppコンソール メニューから、*ストレージ* を選択し、次に *管理* を選択します。
+. [システム] ページで、[システムの追加] を選択し、[Google Cloud Platform] を選択します。
+. * Google Cloud NetApp Volumes* の横にある *Discover* を選択します。
+. NetApp Volumes サブスクリプションに関する情報を入力してください。
++
+.. 使用するシステム名を入力します。
+.. 前の手順でダウンロードした JSON 秘密キーをコピー/貼り付けます。
+.. *資格情報の適用*を選択します。
+.. Google Cloud プロジェクトの名前を選択します。
+.. システムを作成するリージョンを選択します。リージョンは、Google Cloud NetApp Volumesでサポートされているリージョンのいずれかである必要があります。
+.. *Discover*を選択します。
++
+image:screenshot_create_environment.png["Google Cloud NetApp Volumesサブスクリプションの認証情報を追加するスクリーンショット。"]
+
+
+
+
+
+.結果
+コンソールにGoogle Cloud NetApp Volumesシステムが表示されます。
+
+image:screenshot_gcnv_environment.png["Google Cloud NetApp Volumes Service システムのスクリーンショット。"]
+
+.次の手順
+link:task-manage-volumes.html["ボリュームを表示する"] 。

@@ -1,0 +1,44 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes' 
+summary: NetAppコンソールのGoogle Cloud NetApp Volumesサポートの新機能について説明します。 
+---
+= 新着情報
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetAppコンソールのGoogle Cloud NetApp Volumesサポートの新機能について説明します。
+
+
+
+== 2025年10月6日
+
+
+
+=== BlueXPはNetAppコンソールになりました
+
+NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
+
+変更内容の詳細については、link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetAppコンソールのリリースノート"] 。
+
+
+
+== 2025年7月21日
+
+
+
+=== BlueXPでのGoogle Cloud NetApp Volumesのサポート
+
+BlueXPからGoogle Cloud NetApp Volumes を直接管理できるようになりました。
+
+* 作業環境を追加します。
+* ボリュームを表示します。
+* 作業環境を削除します。
+

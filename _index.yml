@@ -1,0 +1,27 @@
+---
+indexpage:
+  title: Google Cloud NetApp Volumes のドキュメント
+  summary: Google Cloud NetApp Volumes を使用すると、企業はクラウド向けにリファクタリングすることなく、パフォーマンスが重視されレイテンシが重視されるコアでビジネスクリティカルなアプリケーションを
+    Google に移行して実行できます。このドキュメントでは、 NetAppコンソールを使用してGoogle Cloud NetApp Volumes を設定および管理する方法について説明します。
+  keywords: Google Cloud NetApp Volumes, BlueXP, NetApp Console
+  lead: Google Cloud NetApp Volumes を使用すると、企業はクラウド向けにリファクタリングすることなく、パフォーマンスが重視されレイテンシが重視されるコアでビジネスクリティカルなアプリケーションを
+    Google に移行して実行できます。このドキュメントでは、 NetAppコンソールを使用してGoogle Cloud NetApp Volumes を設定および管理する方法について説明します。
+  tiles:
+  - title: 始めましょう
+    links:
+    - title: Google Cloud NetApp Volumesについて学ぶ
+      url: concept-gcnv.html
+    - title: クイック スタート
+      url: task-quick-start.html
+  - title: Google Cloud NetApp Volumesを使用する
+    links:
+    - title: ボリュームを管理する
+      url: task-manage-volumes.html
+  - title: ブログとコミュニティ
+    links:
+    - title: NetAppコミュニティ
+      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+    - title: NetAppコンソールブログ
+      url: https://cloud.netapp.com/blog
+    - title: クラウドウェビナー
+      url: https://cloud.netapp.com/events

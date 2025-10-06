@@ -1,0 +1,44 @@
+---
+sidebar: sidebar 
+permalink: task-manage-volumes.html 
+keywords: google cloud netapp volumes, view volumes 
+summary: システムをセットアップしたら、Google Cloud NetAppボリュームを表示できます。 
+---
+= 既存のボリュームを管理する
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+既存のボリュームと、それらに対して実行したアクションを表示できます。
+
+*必要なNetAppコンソールのロール* 組織管理者、フォルダまたはプロジェクトの管理者、またはGoogle Cloud NetApp Volumes の管理者のロール。 https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["すべてのサービスに対するNetAppコンソールのアクセスロールについて学習します"^] 。
+
+
+
+== ボリュームを表示する
+
+ボリュームの名前、数、リージョン、容量、使用容量、ストレージ プールなどのボリュームの詳細を表示します。
+
+.手順
+. *システムに入る*をクリックしてシステムを開きます。
+. 表内の特定のボリュームを表示するには、image:icon_search.png["3 つのドットがあるアイコン。"]ボリューム名を入力します。
+. ボリュームに関連付けられているラベルを表示するには、[*ラベル*] 列で [*表示*] を選択します。
+
+
+
+
+== 監査ログを表示する
+
+ボリュームに対して実行されたすべてのアクションをタイムラインで表示できます。
+
+.手順
+. 右上で*設定*を選択し、次に*タイムライン*を選択します。
+
+
+.結果
+*監査ログ* テーブルでは、ボリュームに対して実行されたすべてのアクションを表示できます。
