@@ -32,9 +32,9 @@ NetApp Volumes は、オンプレミス ストレージのパフォーマンス�
 
 == 料金
 
-Google Cloud NetApp Volumesによって作成されたボリュームは、 NetAppコンソールではなく、サービスのサブスクリプションに対して課金されます。
+Google Cloud NetApp Volumesによって作成されたボリュームは、 NetApp Consoleではなく、サービスのサブスクリプションに対して課金されます。
 
-NetAppコンソールからGoogle Cloud NetApp Volumes のリージョンまたはボリュームを検出しても料金はかかりません。
+NetApp ConsoleからGoogle Cloud NetApp Volumes のリージョンまたはボリュームを検出しても料金はかかりません。
 
 
 
@@ -57,5 +57,5 @@ Google Cloud NetApp Volumesに関する一般的な質問については、NetAp
 == 関連リンク
 
 * https://cloud.google.com/netapp/volumes/docs/discover/overview["Google Cloud NetApp Volumes のドキュメント"^]
-* https://docs.netapp.com/us-en/data-services-copy-sync/index.html["NetAppコンソールのコピーと同期のドキュメント"^]
+* https://docs.netapp.com/us-en/data-services-copy-sync/index.html["NetApp Consoleのコピーと同期のドキュメント"^]
 

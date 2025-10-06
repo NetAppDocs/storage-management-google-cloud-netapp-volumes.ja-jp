@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-set-up-gcnv.html 
 keywords: setup, set up, api, service account, requirements, permissions, google cloud netapp volumes, gcnv, bluexp. netapp console 
-summary: NetAppコンソールには、Google Cloud NetApp Volumes API へのアクセスと、Google Cloud サービス アカウントを介した適切な権限が必要です。 
+summary: NetApp Consoleには、Google Cloud NetApp Volumes API へのアクセスと、Google Cloud サービス アカウントを介した適切な権限が必要です。 
 ---
 = Google Cloud NetApp Volumesを設定する
 :hardbreaks:
@@ -14,13 +14,13 @@ summary: NetAppコンソールには、Google Cloud NetApp Volumes API へのア
 
 
 [role="lead"]
-NetAppコンソールには、Google Cloud サービス アカウントを介した適切な権限が必要です。
+NetApp Consoleには、 Google Cloud サービス アカウントを介した適切な権限が必要です。
 
 
 
 == サービスアカウントを設定する
 
-NetAppコンソールが Google Cloud プロジェクトにアクセスできるように、次のタスクを完了します。
+NetApp ConsoleがGoogle Cloud プロジェクトにアクセスできるように、次のタスクを完了します。
 
 * 既存のサービス アカウントがない場合は、新しいアカウントを作成してください。
 * サービス アカウント メンバーをプロジェクトに追加し、特定のロール (権限) を割り当てます。

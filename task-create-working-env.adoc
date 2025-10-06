@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-create-working-env.html 
 keywords: google cloud netapp volumes, google cloud, netapp cloud volumes, create netapp cloud volumes, discover netapp cloud volumes service for gcnv, cloud volumes service subscription, discover cloud volumes service subscription, discover region, allowed clients, netapp console 
-summary: ボリュームを表示および管理するには、 NetAppコンソールに Netapp Volumes for Google Cloud システムを追加します。 
+summary: ボリュームを表示および管理するには、 NetApp Consoleに Netapp Volumes for Google Cloud システムを追加します。 
 ---
 = Google Cloud NetApp Volumesシステムを追加する
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: ボリュームを表示および管理するには、 NetAppコンソ�
 
 
 [role="lead"]
-サービス アカウントを設定したら、 NetAppコンソールでGoogle Cloud NetApp Volumesシステムを追加して、 Google Cloud NetApp Volumesインスタンスを表示できるようにします。
+サービス アカウントを設定したら、 NetApp ConsoleでGoogle Cloud NetApp Volumesシステムを追加して、 Google Cloud NetApp Volumesインスタンスを表示できるようにします。
 
 このサブスクリプションのクラウド ボリュームがシステムに表示されます。
 
@@ -29,7 +29,7 @@ NOTE: 複数の Google Cloud プロジェクトにサブスクリプションと
 
 
 .手順
-. NetAppコンソール メニューから、*ストレージ* を選択し、次に *管理* を選択します。
+. NetApp Consoleメニューから、*ストレージ* を選択し、次に *管理* を選択します。
 . [システム] ページで、[システムの追加] を選択し、[Google Cloud Platform] を選択します。
 . * Google Cloud NetApp Volumes* の横にある *Discover* を選択します。
 . NetApp Volumes サブスクリプションに関する情報を入力してください。
