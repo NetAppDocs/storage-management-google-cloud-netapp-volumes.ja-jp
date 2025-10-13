@@ -162,7 +162,6 @@
   <block id="9038e7cfcfe9bb9df9afd31371070be8" category="doc">既存のボリュームを管理する</block>
   <block id="182a9bef86de098b538c3c82dd415b3d" category="paragraph">既存のボリュームと、それらに対して実行したアクションを表示できます。</block>
   <block id="a5999c1155de9850d34ba60075be7171" category="inline-link">すべてのサービスに対するNetApp Consoleのアクセスロールについて学習します</block>
-  <block id="4c547288282861f0d4c993684f95504c" category="paragraph">*必要なNetApp Consoleのロール* 組織管理者、フォルダまたはプロジェクトの管理者、またはGoogle Cloud NetApp Volumes の管理者のロール。<block ref="8d054a08e0e901ba9c326f172eb3627b" category="inline-link-rx"></block> 。</block>
   <block id="6b3c1595afc04f7a21a3249b677c0c9b" category="section-title">ボリュームを表示する</block>
   <block id="d8b95942b7e9bb5d3cc343df186da406" category="paragraph">ボリュームの名前、数、リージョン、容量、使用容量、ストレージ プールなどのボリュームの詳細を表示します。</block>
   <block id="59954bf959ef5a94987a3d2e294a0520" category="list-text">*システムに入る*をクリックしてシステムを開きます。</block>
@@ -193,7 +192,6 @@
   <block id="19e4ef4e4ed4623b5e0397bb68bc60c0" category="summary">NetApp Consoleには、Google Cloud NetApp Volumes API へのアクセスと、Google Cloud サービス アカウントを介した適切な権限が必要です。</block>
   <block id="f0eefed66af669fe08a145bb3c570ac3" category="paragraph">NetApp Consoleには、 Google Cloud サービス アカウントを介した適切な権限が必要です。</block>
   <block id="ec8725380aa2f688c9b9d45557c44600" category="section-title">サービスアカウントを設定する</block>
-  <block id="cac1d4d8c6af633e329ef9d4562e30ce" category="paragraph">NetApp ConsoleがGoogle Cloud プロジェクトにアクセスできるように、次のタスクを完了します。</block>
   <block id="2029481d0277679de049fed89280e080" category="list-text">既存のサービス アカウントがない場合は、新しいアカウントを作成してください。</block>
   <block id="6e894315b1b31d63ff57c4e16a459889" category="list-text">サービス アカウント メンバーをプロジェクトに追加し、特定のロール (権限) を割り当てます。</block>
   <block id="4c32d215a32f06bbc02ceaeed3828a5b" category="list-text">Google への認証に使用するサービス アカウントのキー ペアを作成してダウンロードします。</block>
@@ -205,14 +203,12 @@
   <block id="81c36eb6a7aa6110855ae09fd80381ab" category="list-text">サービス アカウント名 (フレンドリ表示名) と説明を入力します。</block>
   <block id="e213f32b3b55da902e01d8f4052863a7" category="paragraph">Google Cloud Console はこの名前に基づいてサービス アカウント ID を生成します。必要に応じて ID を編集します。後で ID を変更することはできません。</block>
   <block id="8971b16610cb4efa4b6c83e3ad176094" category="list-text">今すぐアクセス制御を設定するには、ページの下部にある [*作成*] をクリックし、[*完了*] をクリックして、次の手順に進みます。</block>
-  <block id="4bd66ea95ac91bc82cdc097c3614f96c" category="list-text">_IAM ページ_ から *追加* をクリックし、_メンバーの追加_ ページのフィールドに入力します。</block>
   <block id="8d549e601fd570fd51b0bddb07a08462" category="list-text">[新しいメンバー] フィールドに、完全なサービス アカウント ID を入力します。</block>
   <block id="1d172c52399b8bfd31a6c902f515b82d" category="paragraph">例: \user1-service-account-gcnv@project1.iam.gserviceaccount.com</block>
   <block id="0a2be9e155b7a35429d8207201437a43" category="list-text">次のいずれかのロールを追加します。</block>
   <block id="af76aae9134ddcda5d6f5f3c80e43816" category="list-text">_Google Cloud NetApp Volumes 管理者_ または</block>
   <block id="583f7e9208c61bd50e0d1e4d972cecda" category="list-text">_Google Cloud NetAppボリューム閲覧者_</block>
   <block id="4cc186df234138a57b2e8c5d8e5f7f8d" category="list-text">*保存*をクリックします。</block>
-  <block id="4273d1ae75f72b44df538007b73ace1f" category="list-text">サービス アカウント名をクリックし、[サービス アカウントの詳細] ページで [*キーの追加*] をクリックし、[*新しいキーの作成*] をクリックします。</block>
   <block id="744132d4bfa3718f3315f6d3187cba60" category="list-text">キータイプとして*JSON*を選択し、*作成*をクリックします。</block>
   <block id="ef17d662e8cfc44a88102effe9136080" category="paragraph">*作成*をクリックすると、新しい公開/秘密キーのペアが生成され、システムにダウンロードされます。これは秘密鍵の唯一のコピーとして機能します。このファイルはサービス アカウントとして認証するために使用できるため、安全に保管してください。</block>
   <block id="0eff7de92af8c65ac32bf20be9393a92" category="paragraph">詳細な手順については、Google Cloud のドキュメントを参照してください。</block>
@@ -306,11 +302,29 @@
   <block id="e2439a8512b353f75391ba9c346bc84d" category="sidebar">ボリュームを管理する</block>
   <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">ブログとコミュニティ</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetAppコミュニティ</block>
-  <block id="77ca003bb7fe21bd663468a378f17879" category="sidebar">NetApp Consoleブログ</block>
-  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">クラウドウェビナー</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">リリース ノート</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新機能</block>
   <block id="40b96cc305f26bed96812c2920065f5d" category="sidebar">Google Cloud を設定する</block>
   <block id="f6c5aff43e91755ba26b1cc527f1f13e" category="sidebar">Google Cloud NetApp Volumesを削除する</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識とサポート</block>
+  <block id="e9f08d0e191bafa455f6b22b7db9fb1c" category="admonition">Google Cloud NetApp Volumesの使用を開始するには、適切な権限とロールが割り当てられている必要があります。必要なNetApp Consoleのロールには、組織管理者、フォルダまたはプロジェクト管理者、あるいはGoogle Cloud NetApp Volumes管理者のロールがあります。<block ref="8d054a08e0e901ba9c326f172eb3627b" category="inline-link-rx"></block> 。</block>
+  <block id="4aa58a21c5f509f1480d288c069c6836" category="paragraph">*必要なNetApp Consoleのロール* 組織管理者、フォルダまたはプロジェクト管理者、あるいはGoogle Cloud NetApp Volumes管理者のロール。<block ref="8d054a08e0e901ba9c326f172eb3627b" category="inline-link-rx"></block> 。</block>
+  <block id="061e2fc87acc098c8f7a940bbb44fb2a" category="paragraph">NetApp ConsoleがGoogle Cloud プロジェクトにアクセスできるように、次のタスクを完了します。</block>
+  <block id="913de1bf08a6316fa527cd3eea7e91ef" category="list-text">共有プロジェクトに IAM ロールを付与します。</block>
+  <block id="e4815c1b80eceb906b33141a218966a0" category="section-title">キーペアを作成してダウンロードする</block>
+  <block id="28904cb42bf4f50b658b2d3fcb1791df" category="inline-link">サービスアカウントページ</block>
+  <block id="ebad738732fc3bf48a983db72670516d" category="list-text">の中で<block ref="0acf396ae14ce1f1496a05bca831b995" category="inline-link-rx"></block>で、サービス アカウント名を見つけてクリックします。</block>
+  <block id="1a74f210e51d93b2654334a34b9ff18b" category="list-text">_サービス アカウントの詳細_ ページで、*キーの追加* をクリックし、次に *新しいキーの作成* をクリックします。</block>
+  <block id="116e54786f44ecd0177dd2b114e4d828" category="section-title">サービスアカウントメンバーを追加する</block>
+  <block id="3c031b939f6ec312ee601d021e7a6644" category="inline-link">NetApp Console</block>
+  <block id="2398bf06d1524badd56f205ff705b45f" category="list-text">ログイン<block ref="3d80102badbb10aca6cf846714f51e56" category="inline-link-rx"></block>。</block>
+  <block id="32b6c123fa99d96b6a9c161ccb30c98d" category="list-text">*管理*を選択し、次に*IDとアクセス*を選択します。</block>
+  <block id="9a0dae9ee4a6a41ebb9c54ea814c5625" category="list-text">[追加] をクリックし、[メンバーの追加] ページのフィールドに入力します。</block>
+  <block id="b23792ea5534855a59329a6f9910a2bb" category="section-title">共有VPC</block>
+  <block id="bc469fcc20be5428ba31a5fd135dde8c" category="paragraph">サービス アカウントを使用する追加の GCP プロジェクトごとに、次の操作を行います。</block>
+  <block id="d4f2a874cc586f639aad0321d236f3f1" category="list-text">_IAM ページ_ で、プロジェクト ドロップダウン メニューから共有 VPC ホスト プロジェクトを選択します。</block>
+  <block id="5080561aad5ebf08cf55792d34a54478" category="list-text">*プリンシパルの追加*をクリックします。</block>
+  <block id="46e1e93f6914b7f839eb907c33be43d8" category="list-text">[新しいプリンシパル] フィールドに、サービス アカウントのメール アドレスを入力します。</block>
+  <block id="fb913d100c319ea641fe10be8ad12e03" category="list-text">[役割を選択] ドロップダウンから、 Google Cloud NetApp Volumes管理者の役割を選択します。</block>
+  <block id="cc58d3a9b2264c4fd8cb1d3f61b90bdc" category="sidebar">NetApp Data Services</block>
 </blocks>

@@ -16,7 +16,7 @@ summary: システムをセットアップしたら、Google Cloud NetAppボリ�
 [role="lead"]
 既存のボリュームと、それらに対して実行したアクションを表示できます。
 
-*必要なNetApp Consoleのロール* 組織管理者、フォルダまたはプロジェクトの管理者、またはGoogle Cloud NetApp Volumes の管理者のロール。 https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["すべてのサービスに対するNetApp Consoleのアクセスロールについて学習します"^] 。
+*必要なNetApp Consoleのロール* 組織管理者、フォルダまたはプロジェクト管理者、あるいはGoogle Cloud NetApp Volumes管理者のロール。 https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["すべてのサービスに対するNetApp Consoleのアクセスロールについて学習します"^] 。
 
 
 
