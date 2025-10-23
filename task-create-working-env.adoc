@@ -40,9 +40,6 @@ NOTE: 複数の Google Cloud プロジェクトにサブスクリプションと
 .. Google Cloud プロジェクトの名前を選択します。
 .. システムを作成するリージョンを選択します。リージョンは、Google Cloud NetApp Volumesでサポートされているリージョンのいずれかである必要があります。
 .. *Discover*を選択します。
-+
-image:screenshot_create_environment.png["Google Cloud NetApp Volumesサブスクリプションの認証情報を追加するスクリーンショット。"]
-
 
 
 

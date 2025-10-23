@@ -19,7 +19,9 @@ Google Cloud NetApp Volumes は、高度なデータ管理機能と高度にス�
 NetApp Volumes は、オンプレミス ストレージのパフォーマンスと機能を維持しながら、導入時間を短縮し、ワークロードとアプリケーションを管理し、ワークロードをクラウドに移行するのに役立ちます。
 
 
-NOTE: Google Cloud NetApp Volumesの使用を開始するには、適切な権限とロールが割り当てられている必要があります。必要なNetApp Consoleのロールには、組織管理者、フォルダまたはプロジェクト管理者、あるいはGoogle Cloud NetApp Volumes管理者のロールがあります。 https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["すべてのサービスに対するNetApp Consoleのアクセスロールについて学習します"^] 。
+NOTE: Google Cloud NetApp Volumesの使用を開始するには、適切な権限と、 Google Cloud NetApp Volumes管理者または Google Cloud NetApp閲覧者のロールが割り当てられている必要があります。 https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["すべてのサービスに対するNetApp Consoleのアクセスロールについて学習します"^]。
+
++ image:role_gcnv.png["Google Cloud NetApp Volumesロールのスクリーンショット。"]
 
 
 
