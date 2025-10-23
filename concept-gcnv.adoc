@@ -21,7 +21,7 @@ NetApp Volumes は、オンプレミス ストレージのパフォーマンス�
 
 NOTE: Google Cloud NetApp Volumesの使用を開始するには、適切な権限と、 Google Cloud NetApp Volumes管理者または Google Cloud NetApp閲覧者のロールが割り当てられている必要があります。 https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["すべてのサービスに対するNetApp Consoleのアクセスロールについて学習します"^]。
 
-+ image:role_gcnv.png["Google Cloud NetApp Volumesロールのスクリーンショット。"]
+image:role_gcnv.png["Google Cloud NetApp Volumesロールのスクリーンショット。"]
 
 
 
