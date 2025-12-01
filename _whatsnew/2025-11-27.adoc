@@ -1,0 +1,11 @@
+= Google Cloud Platform の認証情報の変更
+:allow-uri-read: 
+
+
+
+
+=== Google Cloud Platform の認証情報の変更
+
+お客様がより多くのGoogle Cloud NetApp Volumesシステムをセットアップして承認するにつれて、認証情報の管理方法が変わりました。
+
+NetApp Volumes システムの認証情報は、Cloud Key Management サービスなどの Google クラウド バックエンドに保存されるようになり、新しいシステムを作成するときにサービス アカウントの偽装認証情報が使用されます。

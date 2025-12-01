@@ -19,6 +19,8 @@ indexpage:
     links:
     - title: ボリュームを管理する
       url: task-manage-volumes.html
+    - title: ボリュームを削除する
+      url: task-remove-working-env.html
   - title: ブログとコミュニティ
     links:
     - title: NetApp Console

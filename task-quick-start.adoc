@@ -20,6 +20,10 @@ Google Cloud をセットアップし、システムを作成して、 Google Cl
 [role="quick-margin-para"]
 Google からサービス アカウントを作成します。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2"] link:task-create-working-env.html["システムを追加する"]
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2"] link:task-add-roles.html["役割を割り当てる"]
+[role="quick-margin-para"]
+NetApp Consoleから、メンバーに適切なロールを割り当てます。
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三つ"] link:task-create-working-env.html["システムを追加する"]
 [role="quick-margin-para"]
 NetApp Consoleから、*システムの追加* をクリックし、次に *Google Cloud Platform* をクリックし、次に * Google Cloud NetApp Volumes* をクリックし、最後に *検出* をクリックします。サービス アカウントと Google Cloud プロジェクトに関する詳細を入力します。
