@@ -40,6 +40,9 @@ Google Cloud Console はこの名前に基づいてサービス アカウント 
 .. 役割リストから、* Google Cloud NetApp Volumes管理者* または * Google Cloud NetApp閲覧者* の役割を選択します。
 .. *続行*を選択します。
 .. このサービス アカウントへの偽装アクセスを許可します: credentials-sa@wf-production-netapp.iam.gserviceaccount.com。詳細については、 https://cloud.google.com/iam/docs/create-short-lived-credentials-direct#sa-credentials-jwt["自己署名JSON Web Token（JWT）を作成する"^] 。
++
+NetAppが所有するサービス アカウントは、そのサービス アカウントの秘密キーにアクセスすることなくそのサービス アカウントとして動作できるようにする、有効期間の短いアクセス トークンを要求するために使用されます。
+
 .. ページの下部にある [*完了*] をクリックして、次の手順に進みます。
 
 

@@ -320,7 +320,6 @@
   <block id="a09853f10b1e18c9e2f541f7e1763305" category="list-text">*新しいロールを追加*を選択します。</block>
   <block id="24a2cf89a7e8654a8dd82b3e847a2f3f" category="paragraph"><block ref="353eff4e723ce60125e1af61cf4ff726" category="inline-link-macro-rx"></block>。</block>
   <block id="ab1dab4c743d79632ef6d8713763e8d2" category="list-text">Google サービス アカウントのメールアドレス</block>
-  <block id="d584bbe3e0a94b8fa857891d1712d7ab" category="list-text">関連付けられている Google サービス アカウントのメール アドレス (credentials-sa@wf-production-netapp.iam.gserviceaccount.com) を貼り付けます。</block>
   <block id="53b4170efa88b9e39c22f67a2c5c13da" category="list-text">プロジェクト名とリージョンを取得するには、「*資格情報を適用*」を選択します。</block>
   <block id="7de846f0f4d481f8d5514f7cd985147d" category="list-text">*プロジェクト名*から、Google Cloud プロジェクトの名前を選択します。</block>
   <block id="035a4567c3372192964d63db5f9bdd6e" category="list-text">*リージョン*から、システムを作成するリージョンを選択します。リージョンは、Google Cloud NetApp Volumesでサポートされているリージョンのいずれかである必要があります。</block>
@@ -347,4 +346,6 @@
   <block id="8a5b2584efd2f1954d10a5072e5491dd" category="paragraph"><block ref="61e83af22a007916f84f7c17f5833a9d" category="inline-link-macro-rx"></block>。</block>
   <block id="815e75619b370a1b845eccec6979ed74" category="section-title">2025年11月27日</block>
   <block id="8372655369d67acc7142b2e8d34f9af7" category="sidebar">ボリュームを削除する</block>
+  <block id="5b20dcb4d6ead9fcf4ad79a3f32c603e" category="list-text">関連付けられている Google サービス アカウントのメール アドレスを貼り付けます。詳細については、<block ref="2a10bb8ea1c6c9896523c5c7efdb9ddd" category="inline-link-macro-rx"></block> 。</block>
+  <block id="063d962f8b06a3e8ff542497811b0109" category="paragraph">NetAppが所有するサービス アカウントは、そのサービス アカウントの秘密キーにアクセスすることなくそのサービス アカウントとして動作できるようにする、有効期間の短いアクセス トークンを要求するために使用されます。</block>
 </blocks>

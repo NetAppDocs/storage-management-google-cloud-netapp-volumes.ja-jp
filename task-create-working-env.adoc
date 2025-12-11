@@ -35,7 +35,7 @@ NOTE: 複数の Google Cloud プロジェクトにサブスクリプションと
 . NetApp Volumes サブスクリプションに関する情報を入力してください。
 +
 .. 使用するシステム名を入力します。
-.. 関連付けられている Google サービス アカウントのメール アドレス (credentials-sa@wf-production-netapp.iam.gserviceaccount.com) を貼り付けます。
+.. 関連付けられている Google サービス アカウントのメール アドレスを貼り付けます。詳細については、link:task-set-up-gcnv.html["サービスアカウントを設定する"] 。
 .. プロジェクト名とリージョンを取得するには、「*資格情報を適用*」を選択します。
 .. *プロジェクト名*から、Google Cloud プロジェクトの名前を選択します。
 .. *リージョン*から、システムを作成するリージョンを選択します。リージョンは、Google Cloud NetApp Volumesでサポートされているリージョンのいずれかである必要があります。
