@@ -29,13 +29,13 @@ sidebar:
     - title: Google Cloud NetApp Volumes のロールを割り当てる
       url: "/task-add-roles.html"
     - title: システムを追加する
-      url: "/task-create-working-env.html"
+      url: "/task-create-system.html"
   - title: Google Cloud NetApp Volumesを使用する
     entries:
     - title: ボリュームを管理する
       url: "/task-manage-volumes.html"
     - title: ボリュームを削除する
-      url: "/task-remove-working-env.html"
+      url: "/task-remove-system.html"
   - title: 知識とサポート
     entries:
     - title: サポートに登録する
