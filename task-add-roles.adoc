@@ -46,4 +46,4 @@ Google Cloud NetApp Volumesの使用を開始するには、 NetApp Consoleで�
 
 
 .次の手順
-link:task-create-working-env.html["Google Cloud NetApp Volumesシステムを追加する"]。
+link:task-create-system.html["Google Cloud NetApp Volumesシステムを追加する"]。

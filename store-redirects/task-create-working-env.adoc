@@ -2,50 +2,7 @@
 permalink: task-create-working-env.html 
 redirect: storage-management-google-cloud-netapp-volumes/task-create-system.html 
 ---
-= Google Cloud NetApp Volumesシステムを追加する
-:hardbreaks:
+= 
 :allow-uri-read: 
-:nofooter: 
-:icons: font
-:linkattrs: 
-:imagesdir: ./media/
 
 
-[role="lead"]
-サービス アカウントを設定したら、 NetApp ConsoleでGoogle Cloud NetApp Volumesシステムを追加して、 Google Cloud NetApp Volumesインスタンスを表示できるようにします。
-
-このサブスクリプションのクラウド ボリュームがシステムに表示されます。
-
-
-NOTE: 複数の Google Cloud プロジェクトにサブスクリプションとボリュームがある場合は、プロジェクトごとにこのタスクを実行する必要があります。
-
-.開始する前に
-各プロジェクトのサブスクリプションを追加するときは、次の情報を用意しておく必要があります。
-
-* Google サービス アカウントのメールアドレス
-* プロジェクト名
-
-
-.手順
-. NetApp Consoleメニューから、*ストレージ* を選択し、次に *管理* を選択します。
-. [システム] ページで、[システムの追加] を選択し、[Google Cloud Platform] を選択します。
-. * Google Cloud NetApp Volumes* の横にある *Discover* を選択します。
-. NetApp Volumes サブスクリプションに関する情報を入力してください。
-+
-.. 使用するシステム名を入力します。
-.. 関連付けられている Google サービス アカウントのメール アドレスを貼り付けます。詳細については、link:task-set-up-gcnv.html["サービスアカウントを設定する"] 。
-.. プロジェクト名とリージョンを取得するには、「*資格情報を適用*」を選択します。
-.. *プロジェクト名*から、Google Cloud プロジェクトの名前を選択します。
-.. *リージョン*から、システムを作成するリージョンを選択します。リージョンは、Google Cloud NetApp Volumesでサポートされているリージョンのいずれかである必要があります。
-.. *Discover*を選択します。
-
-
-
-
-.結果
-コンソールにGoogle Cloud NetApp Volumesシステムが表示されます。
-
-image:screenshot_gcnv_environment.png["Google Cloud NetApp Volumes Service システムのスクリーンショット。"]
-
-.次の手順
-link:task-manage-volumes.html["ボリュームを表示する"] 。
