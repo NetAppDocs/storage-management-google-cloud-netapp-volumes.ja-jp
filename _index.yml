@@ -4,7 +4,7 @@ indexpage:
   summary: Google Cloud NetApp Volumes を使用すると、企業はクラウド向けにリファクタリングすることなく、パフォーマンスが重視されレイテンシが重視されるコアでビジネスクリティカルなアプリケーションを
     Google に移行して実行できます。このドキュメントでは、 NetApp Consoleを使用してGoogle Cloud NetApp Volumes
     を設定および管理する方法について説明します。
-  keywords: Google Cloud NetApp Volumes, BlueXP, NetApp Console
+  keywords: Google Cloud NetApp Volumes, BlueXP, NetApp Console, GCNV.
   lead: Google Cloud NetApp Volumes を使用すると、企業はクラウド向けにリファクタリングすることなく、パフォーマンスが重視されレイテンシが重視されるコアでビジネスクリティカルなアプリケーションを
     Google に移行して実行できます。このドキュメントでは、 NetApp Consoleを使用してGoogle Cloud NetApp Volumes
     を設定および管理する方法について説明します。
