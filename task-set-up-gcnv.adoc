@@ -16,7 +16,10 @@ summary: NetApp Consoleには、Google Cloud NetApp Volumes API へのアクセ�
 [role="lead"]
 NetApp Consoleには、 Google Cloud サービス アカウントを介した適切な権限が必要です。
 
-NetApp ConsoleがGoogle Cloud プロジェクトにアクセスできるように、次のタスクを完了します。
+以下のタスクを完了して、NetApp ConsoleからGoogle Cloudプロジェクトにアクセスできるようにします。
+
+
+NOTE: これらのタスクには、Google Cloud コンソールまたは gcloud CLI を使用できます。gcloud CLI を使用するには、最初にlink:https://cloud.google.com/sdk/docs/install-sdk["Google Cloud CLI をインストール済み"^]が必要です。
 
 * 既存のサービス アカウントがない場合は、新しいアカウントを作成してください。
 * なりすましのアクセスを許可します。
@@ -39,10 +42,26 @@ Google Cloud Console はこの名前に基づいてサービス アカウント 
 .. *作成して続行*をクリックします。
 .. 役割リストから、* Google Cloud NetApp Volumes管理者* または * Google Cloud NetApp閲覧者* の役割を選択します。
 .. *続行*を選択します。
++
+または、gcloud CLI を使用してロールを割り当てることもできます。
+
++
+[source, cli]
+----
+gcloud projects add-iam-policy-binding <YOUR_PROJECT_ID> --member="serviceAccount:<YOUR_SA_EMAIL>" --role="roles/netapp.admin"
+----
 .. このサービス アカウントへの偽装アクセスを許可します: credentials-sa@wf-production-netapp.iam.gserviceaccount.com。詳細については、 https://cloud.google.com/iam/docs/create-short-lived-credentials-direct#sa-credentials-jwt["自己署名JSON Web Token（JWT）を作成する"^] 。
 +
 NetAppが所有するサービス アカウントは、そのサービス アカウントの秘密キーにアクセスすることなくそのサービス アカウントとして動作できるようにする、有効期間の短いアクセス トークンを要求するために使用されます。
 
++
+または、gcloud CLI を使用して偽装アクセスを許可することもできます：
+
++
+[source, cli]
+----
+gcloud iam service-accounts add-iam-policy-binding <YOUR_SA_EMAIL> --member="serviceAccount:credentials-sa@wf-production-netapp.iam.gserviceaccount.com" --role="roles/iam.serviceAccountTokenCreator" --project=<YOUR_PROJECT_ID>
+----
 .. ページの下部にある [*完了*] をクリックして、次の手順に進みます。
 
 
@@ -59,6 +78,14 @@ NetAppが所有するサービス アカウントは、そのサービス アカ
 . [新しいプリンシパル] フィールドに、サービス アカウントのメール アドレスを入力します。
 . [役割の選択] ドロップダウンから、* Google Cloud NetApp Volumes管理者* 役割を選択します。
 . *保存*をクリックします。
++
+または、gcloud CLI を使用して IAM ポリシーバインディングを追加することもできます：
+
++
+[source, cli]
+----
+gcloud projects add-iam-policy-binding <SHARED_VPC_HOST_PROJECT_ID> --member="serviceAccount:<YOUR_SA_EMAIL>" --role="roles/netapp.admin"
+----
 
 
 詳細な手順については、Google Cloud のドキュメントを参照してください。
