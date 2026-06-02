@@ -284,7 +284,6 @@
   <block id="3c031b939f6ec312ee601d021e7a6644" category="inline-link">NetApp Console</block>
   <block id="32b6c123fa99d96b6a9c161ccb30c98d" category="list-text">*管理*を選択し、次に*IDとアクセス*を選択します。</block>
   <block id="b23792ea5534855a59329a6f9910a2bb" category="section-title">共有VPC</block>
-  <block id="bc469fcc20be5428ba31a5fd135dde8c" category="paragraph">サービス アカウントを使用する追加の GCP プロジェクトごとに、次の操作を行います。</block>
   <block id="d4f2a874cc586f639aad0321d236f3f1" category="list-text">_IAM ページ_ で、プロジェクト ドロップダウン メニューから共有 VPC ホスト プロジェクトを選択します。</block>
   <block id="5080561aad5ebf08cf55792d34a54478" category="list-text">*プリンシパルの追加*をクリックします。</block>
   <block id="46e1e93f6914b7f839eb907c33be43d8" category="list-text">[新しいプリンシパル] フィールドに、サービス アカウントのメール アドレスを入力します。</block>
@@ -325,7 +324,6 @@
   <block id="119cf90c9716f71114dbe3b9e13911b6" category="list-text">なりすましのアクセスを許可します。</block>
   <block id="427af8bd46f9b056f4a0a09ce41c9a34" category="list-text">サービス アカウントを作成するには、次の手順を実行します。</block>
   <block id="1483d48ab7fa569ffd416726e76ecf2d" category="list-text">*作成して続行*をクリックします。</block>
-  <block id="c8b1bc399230d8dbc9a1deb5accc5450" category="list-text">役割リストから、* Google Cloud NetApp Volumes管理者* または * Google Cloud NetApp閲覧者* の役割を選択します。</block>
   <block id="136dc09835924029e4299fa28f17233d" category="list-text">*続行*を選択します。</block>
   <block id="b1d4def425f4f73f9bb2fa49bbccf78d" category="inline-link">自己署名JSON Web Token（JWT）を作成する</block>
   <block id="c371b001e6cd3bcc89774b7969866dc2" category="list-text">このサービス アカウントへの偽装アクセスを許可します: credentials-sa@wf-production-netapp.iam.gserviceaccount.com。詳細については、<block ref="71438f0ee4109348e7b9ea2fd1b6bf55" category="inline-link-rx"></block> 。</block>
@@ -353,4 +351,8 @@
   <block id="7019a39846e9a2c7f7a80eaba91e4a41" category="paragraph"><block ref="7019a39846e9a2c7f7a80eaba91e4a41" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1d593c3f7480ada9580d93cd753c3f93" category="paragraph">これはシステムによって生成されたIDで、お客様のメールアドレスにマッピングされます。*NSS管理*ページの<block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block>メニューからメールアドレスを表示できます。</block>
   <block id="872eaae7deb6035c20f9bfe6deefd03d" category="list-text">ログイン資格情報トークンを更新する必要がある場合は、<block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block> メニューに*資格情報の更新*オプションもあります。</block>
+  <block id="2b5b357227eed641a3bd86d123eb3ac6" category="admonition">Google Cloud プロジェクトの権限変更が反映されるまでには、数分かかる場合があります。</block>
+  <block id="06a757f4492cc64438eda3ca3eb111b2" category="list-text">役割リストから、* Google Cloud NetApp Volumes Admin * または * Google Cloud NetApp Volumes Viewer * ロールを選択します。</block>
+  <block id="34f0896664ad94ea24b488080bc90944" category="admonition">ステージング環境には、本番サービスアカウントの代わりに<block ref="2bebe1838cee8677133953ee797f4d0a" prefix=" " category="inline-code"></block>を使用してください。上記のコマンドの<block ref="e41d617895cb15aef8465d2dcb67fde1" prefix=" " category="inline-code"></block>パラメータ値を<block ref="6b161ca4f09b2b5faab1957b52ed2c19" prefix=" " category="inline-code"></block>に置き換えてください。</block>
+  <block id="e2bb3fd2b13dd9ef09db422aee6f7e01" category="paragraph">サービスアカウントを使用する追加の Google Cloud プロジェクトごとに、以下の手順を実行してください：</block>
 </blocks>

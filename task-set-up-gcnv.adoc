@@ -30,6 +30,9 @@ NOTE: これらのタスクには、Google Cloud コンソールまたは gcloud
 
 == サービスアカウントを設定する
 
+
+NOTE: Google Cloud プロジェクトの権限変更が反映されるまでには、数分かかる場合があります。
+
 . Google Cloudコンソールでは、 https://console.cloud.google.com/iam-admin/serviceaccounts["サービスアカウントページに移動します"^] 。
 . *プロジェクトを選択*をクリックし、プロジェクトを選択して*開く*をクリックします。
 . サービス アカウントを作成するには、次の手順を実行します。
@@ -40,7 +43,7 @@ NOTE: これらのタスクには、Google Cloud コンソールまたは gcloud
 Google Cloud Console はこの名前に基づいてサービス アカウント ID を生成します。必要に応じて ID を編集します。後で ID を変更することはできません。
 
 .. *作成して続行*をクリックします。
-.. 役割リストから、* Google Cloud NetApp Volumes管理者* または * Google Cloud NetApp閲覧者* の役割を選択します。
+.. 役割リストから、* Google Cloud NetApp Volumes Admin * または * Google Cloud NetApp Volumes Viewer * ロールを選択します。
 .. *続行*を選択します。
 +
 または、gcloud CLI を使用してロールを割り当てることもできます。
@@ -62,6 +65,10 @@ NetAppが所有するサービス アカウントは、そのサービス アカ
 ----
 gcloud iam service-accounts add-iam-policy-binding <YOUR_SA_EMAIL> --member="serviceAccount:credentials-sa@wf-production-netapp.iam.gserviceaccount.com" --role="roles/iam.serviceAccountTokenCreator" --project=<YOUR_PROJECT_ID>
 ----
++
+
+NOTE: ステージング環境には、本番サービスアカウントの代わりに `credentials-sa@wf-staging-netapp.iam.gserviceaccount.com`を使用してください。上記のコマンドの `--member`パラメータ値を `serviceAccount:credentials-sa@wf-staging-netapp.iam.gserviceaccount.com`に置き換えてください。
+
 .. ページの下部にある [*完了*] をクリックして、次の手順に進みます。
 
 
@@ -71,7 +78,7 @@ gcloud iam service-accounts add-iam-policy-binding <YOUR_SA_EMAIL> --member="ser
 
 == 共有VPC
 
-サービス アカウントを使用する追加の GCP プロジェクトごとに、次の操作を行います。
+サービスアカウントを使用する追加の Google Cloud プロジェクトごとに、以下の手順を実行してください：
 
 . _IAM ページ_ で、プロジェクト ドロップダウン メニューから共有 VPC ホスト プロジェクトを選択します。
 . *プリンシパルの追加*をクリックします。
