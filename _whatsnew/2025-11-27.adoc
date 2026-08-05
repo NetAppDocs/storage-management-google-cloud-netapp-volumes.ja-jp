@@ -4,6 +4,7 @@
 
 
 
+[[google-cloud-platform-credentials-changes]]
 === Google Cloud Platform の認証情報の変更
 
 お客様がより多くのGoogle Cloud NetApp Volumesシステムをセットアップして承認するにつれて、認証情報の管理方法が変わりました。

@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-set-up-gcnv.html 
-keywords: setup, set up, api, service account, requirements, permissions, google cloud netapp volumes, gcnv, bluexp. netapp console 
+keywords: setup, set up, api, service account, requirements, permissions, google cloud netapp volumes, gcnv, bluexp, netapp console 
 summary: NetApp Consoleには、Google Cloud NetApp Volumes API へのアクセスと、Google Cloud サービス アカウントを介した適切な権限が必要です。 
 ---
 = Google Cloud NetApp Volumesを設定する
@@ -28,6 +28,7 @@ NOTE: これらのタスクには、Google Cloud コンソールまたは gcloud
 
 
 
+[[set-up-a-service-account]]
 == サービスアカウントを設定する
 
 
@@ -76,6 +77,7 @@ NOTE: ステージング環境には、本番サービスアカウントの代�
 
 
 
+[[shared-vpc]]
 == 共有VPC
 
 サービスアカウントを使用する追加の Google Cloud プロジェクトごとに、以下の手順を実行してください：
@@ -104,6 +106,7 @@ gcloud projects add-iam-policy-binding <SHARED_VPC_HOST_PROJECT_ID> --member="se
 
 
 
+[[troubleshooting]]
 == トラブルシューティング
 
 エラーが発生した場合は、*iam.disableCrossProjectServiceAccountUsage* ポリシーが適用される場合があります。これを修正するには、次の手順を実行します。

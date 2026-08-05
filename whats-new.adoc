@@ -18,10 +18,12 @@ NetApp ConsoleでのGoogle Cloud NetApp Volumesサポートの新機能につい
 
 
 
+[[27-november-2025]]
 == 2025年11月27日
 
 
 
+[[google-cloud-platform-credentials-changes]]
 === Google Cloud Platform の認証情報の変更
 
 お客様がより多くのGoogle Cloud NetApp Volumesシステムをセットアップして承認するにつれて、認証情報の管理方法が変わりました。
@@ -30,10 +32,12 @@ NetApp Volumes システムの認証情報は、Cloud Key Management サービ�
 
 
 
+[[06-october-2025]]
 == 2025年10月6日
 
 
 
+[[bluexp-is-now-netapp-console]]
 === BlueXPはNetApp Consoleになりました
 
 NetApp Consoleは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetApp Data Servicesの集中管理を提供し、リアルタイムの分析情報、より高速なワークフロー、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
@@ -42,10 +46,12 @@ NetApp Consoleは、強化され再構築されたBlueXP基盤上に構築され
 
 
 
+[[21-july-2025]]
 == 2025年7月21日
 
 
 
+[[support-for-google-cloud-netapp-volumes-in-bluexp]]
 === BlueXPでのGoogle Cloud NetApp Volumesのサポート
 
 BlueXPからGoogle Cloud NetApp Volumes を直接管理できるようになりました。

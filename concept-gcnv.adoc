@@ -25,6 +25,7 @@ image:role_gcnv.png["Google Cloud NetApp Volumesロールのスクリーンシ�
 
 
 
+[[features]]
 == 機能
 
 * エンタープライズ アプリをより高速かつ効率的に実行します。
@@ -35,6 +36,7 @@ image:role_gcnv.png["Google Cloud NetApp Volumesロールのスクリーンシ�
 
 
 
+[[cost]]
 == 料金
 
 Google Cloud NetApp Volumesによって作成されたボリュームは、 NetApp Consoleではなく、サービスのサブスクリプションに対して課金されます。
@@ -43,12 +45,14 @@ NetApp ConsoleからGoogle Cloud NetApp Volumes のリージョンまたはボ�
 
 
 
+[[supported-regions]]
 == サポートされている地域
 
 https://cloud.google.com/netapp/volumes/docs/discover/service-levels#supported_regions["サポートされているGoogle Cloud NetApp Volumes のリージョンを表示"^]
 
 
 
+[[getting-help]]
 == 助けを得る
 
 技術サポートについては、Google Cloud ポータルからリクエストを記録してください。 Google Cloud サブスクリプションと、*ストレージ* の下にある * Google Cloud NetApp Volumes* サービスを選択します。必要な情報を入力してください。
@@ -59,6 +63,7 @@ Google Cloud NetApp Volumesに関する一般的な質問については、NetAp
 
 
 
+[[related-links]]
 == 関連リンク
 
 * https://cloud.google.com/netapp/volumes/docs/discover/overview["Google Cloud NetApp Volumes のドキュメント"^]
