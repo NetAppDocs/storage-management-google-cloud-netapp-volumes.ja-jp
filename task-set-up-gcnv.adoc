@@ -66,10 +66,6 @@ NetAppが所有するサービス アカウントは、そのサービス アカ
 ----
 gcloud iam service-accounts add-iam-policy-binding <YOUR_SA_EMAIL> --member="serviceAccount:credentials-sa@wf-production-netapp.iam.gserviceaccount.com" --role="roles/iam.serviceAccountTokenCreator" --project=<YOUR_PROJECT_ID>
 ----
-+
-
-NOTE: ステージング環境には、本番サービスアカウントの代わりに `credentials-sa@wf-staging-netapp.iam.gserviceaccount.com`を使用してください。上記のコマンドの `--member`パラメータ値を `serviceAccount:credentials-sa@wf-staging-netapp.iam.gserviceaccount.com`に置き換えてください。
-
 .. ページの下部にある [*完了*] をクリックして、次の手順に進みます。
 
 
