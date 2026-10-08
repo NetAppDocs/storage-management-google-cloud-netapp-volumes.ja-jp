@@ -4,7 +4,7 @@ permalink: task-support-registration.html
 keywords: support registration, register for support, support, nss account, add nss account, 
 summary: NetAppテクニカル サポートでサポート ケースを開く前に、 NetAppサポート サイト アカウントをNetApp Consoleに追加し、サポートに登録する必要があります。 
 ---
-= サポートに登録する
+= Google Cloud NetApp Volumes のサポートに登録する
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/

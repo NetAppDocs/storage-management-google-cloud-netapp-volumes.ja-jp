@@ -4,7 +4,7 @@ permalink: task-manage-volumes.html
 keywords: google cloud netapp volumes, view volumes 
 summary: システムをセットアップしたら、Google Cloud NetAppボリュームを表示できます。 
 ---
-= 既存のボリュームを管理する
+= Google Cloud NetApp Volumes でボリュームを管理する
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

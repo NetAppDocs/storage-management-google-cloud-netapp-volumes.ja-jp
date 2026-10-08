@@ -18,11 +18,11 @@ Google Cloud NetApp Volumesの使用を開始するには、 NetApp Consoleで�
 
 
 
-[[assign-roles-to-the-service-account-member]]
-== サービス アカウント メンバーにロールを割り当てる
+[[assign-roles-to-netapp-console-users]]
+== NetApp Consoleユーザーにロールを割り当てる
 
 . ログイン https://docs.netapp.com/us-en/console-setup-admin/task-logging-in.html["NetApp Console"^]。
-. *管理*を選択し、次に*IDとアクセス*を選択します。
+. 「管理」→「IDとアクセス」→「メンバー」の順に選択します。
 . アクションメニューを選択image:screenshot_gallery_options.gif["3 つのドットがあるアイコン。"]役割を割り当てるメンバーの横にある をクリックし、[役割の追加] を選択します。
 . ロールを追加するには、ダイアログ ボックスの手順を完了します。
 +

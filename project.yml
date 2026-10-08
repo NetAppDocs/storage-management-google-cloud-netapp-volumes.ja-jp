@@ -22,7 +22,7 @@ sidebar:
     entries:
     - title: Google Cloud NetApp Volumesについて学ぶ
       url: "/concept-gcnv.html"
-    - title: 開始ワークフロー
+    - title: Google Cloud NetApp Volumes のクイックスタート
       url: "/task-quick-start.html"
     - title: Google Cloud NetApp Volumesを設定する
       url: "/task-set-up-gcnv.html"

@@ -22,10 +22,10 @@ summary: ボリュームを表示および管理するには、 NetApp Console�
 NOTE: 複数の Google Cloud プロジェクトにサブスクリプションとボリュームがある場合は、プロジェクトごとにこのタスクを実行する必要があります。
 
 .開始する前に
-各プロジェクトのサブスクリプションを追加するときは、次の情報を用意しておく必要があります。
+各プロジェクトにシステムを追加する前に、以下の点を確認してください：
 
-* Google サービス アカウントのメールアドレス
-* プロジェクト名
+* Google Cloudサービスアカウントが設定され、その認証情報がNetApp Consoleで利用可能になっています。詳細については、link:task-set-up-gcnv.html["Google Cloud NetApp Volumesを設定する"]を参照してください。
+* NetApp Console で Google Cloud NetApp Volumes の管理者または閲覧者のロールを持っています。詳細については、link:task-add-roles.html["Google Cloud NetApp Volumes のロールを割り当てる"] を参照してください。
 
 
 .手順
@@ -35,10 +35,11 @@ NOTE: 複数の Google Cloud プロジェクトにサブスクリプションと
 . NetApp Volumes サブスクリプションに関する情報を入力してください。
 +
 .. 使用するシステム名を入力します。
-.. 関連付けられている Google サービス アカウントのメール アドレスを貼り付けます。詳細については、link:task-set-up-gcnv.html["サービスアカウントを設定する"] 。
-.. プロジェクト名とリージョンを取得するには、「*資格情報を適用*」を選択します。
-.. *プロジェクト名*から、Google Cloud プロジェクトの名前を選択します。
-.. *リージョン*から、システムを作成するリージョンを選択します。リージョンは、Google Cloud NetApp Volumesでサポートされているリージョンのいずれかである必要があります。
+.. *認証情報* から、使用する Google Cloud NetApp Volumes の認証情報を選択します。
++
+認証情報が表示されない場合は、続行する前にGoogle Cloud NetApp Volumesの認証情報を追加してください。認証情報が利用可能になるまで、プロジェクトとリージョンの選択はできません。
+
+.. *リージョン*から、Google Cloud NetApp Volumesでサポートされているリージョンを選択します。
 .. *Discover*を選択します。
 
 
